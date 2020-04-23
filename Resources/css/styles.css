@@ -36,6 +36,7 @@ h1 {
     line-height: 135%;
     /*Khoảng cách các dòng*/
     margin-bottom: 50px;
+    font-style: italic;
 }
 
 h2 {
@@ -111,7 +112,8 @@ header {
     width: 350px;
     float: left;
     margin-left: 70px;
-    margin-top: -90px;
+    margin-top: -100px;
+    margin-bottom: -160px;
 }
 
 .main-nav {
@@ -197,16 +199,33 @@ header {
     z-index: 900;
     top: 0;
     width: 99%;
-    height: 90px;
+    padding-bottom: 5px;
 }
 
 .sticky .logo {
     width: 220px;
     margin-top: -60px;
+    margin-bottom: -70px;
 }
 
 .sticky .main-nav {
     margin-top: 30px;
+}
+
+
+/*************************Moblie Navigation************************/
+
+.mobile-nav-icon {
+    color: brown;
+    font-size: 200%;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    display: none;
+}
+
+.sticky .mobile-nav-icon {
+    top: 30px;
 }
 
 
@@ -230,7 +249,7 @@ header {
     position: absolute;
     /*Canh theo position của thằng cha*/
     top: 50%;
-    left: 50%;
+    left: 58%;
     color: #d97b0b;
     transform: translate(-65%, 100%);
     opacity: 0;
@@ -246,6 +265,7 @@ header {
 .about-picture:hover img,
 .about-picture:active img {
     filter: brightness(100%) blur(2px);
+    cursor: pointer;
 }
 
 
@@ -256,14 +276,14 @@ header {
 }
 
 .products-section h2 {
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 
 .product-box {
     background-color: #eeefff;
     box-shadow: 3px 5px 10px #e0e0e0;
     width: 90%;
-    height: 400px;
+    height: 475px;
     margin-left: 20px;
 }
 
@@ -279,14 +299,22 @@ header {
 }
 
 .product-box ul li {
-    margin-left: 20%;
+    margin-left: 18%;
     list-style: none;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: -30px;
 }
 
 .product-box .btn {
     margin-left: 25%;
+}
+
+#faint-silver,
+#matchalatte,
+#lychee {
+    width: 100%;
+    height: 60%;
+    margin-top: -15px;
 }
 
 
